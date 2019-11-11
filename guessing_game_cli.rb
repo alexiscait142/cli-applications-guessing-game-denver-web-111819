@@ -7,5 +7,9 @@ def get_input
   gets.chomp
 end
 
+def goodbye
+  puts "Goodbye!"
+end
+
 def run_guessing_game
 end
