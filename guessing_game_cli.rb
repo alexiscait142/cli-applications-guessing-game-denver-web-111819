@@ -11,8 +11,8 @@ def user_input
 end
 
 def run_guessing_game
-  start_game
   num = random_number
+  start_game
   input = user_input
   if input == "exit"
     puts "Goodbye!"
