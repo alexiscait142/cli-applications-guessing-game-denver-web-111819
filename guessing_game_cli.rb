@@ -3,11 +3,11 @@ def start_game
 end
 
 def random_number
-  rand(6) + 1
+  rand(1...7).to_s
 end
 
 def user_input
-  gets.chomp
+  gets.chomp.to_s
 end
 
 def run_guessing_game
