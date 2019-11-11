@@ -7,7 +7,7 @@ def random_number
 end
 
 def user_input
-  gets.chomp
+  gets.chomp.to_s
 end
 
 def run_guessing_game
