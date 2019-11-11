@@ -11,7 +11,16 @@ def user_input
 end
 
 def run_guessing_game
-  
+  start_game
+  num = random_number
+  input = user_input
+  if input == "exit"
+    puts "Goodbye!"
+  elsif input == num 
+    puts "You guessed the correct number!"
+  elsif input != num 
+    puts "Sorry! The computer guessed #{num}."
+  end
 end
 
 
